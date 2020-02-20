@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-size: 5.625rem;
+  color: #66BFBF;
   margin-top: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
@@ -13,10 +14,12 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 .profileImage{
@@ -25,6 +28,10 @@ h3 {
 
 .skillsImage{
   border-radius: 50%;
+}
+
+.subtitle{
+  font-weight: normal;
 }
 
 .top-container {
@@ -41,6 +48,12 @@ h3 {
 
 }
 
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -51,4 +64,8 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.footer-link {
+  color: #11999E;
 }
